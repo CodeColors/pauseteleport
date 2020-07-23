@@ -6,12 +6,12 @@ description 'A simple waypoint teleporter w/ map waypoint'
 version '1.0.0'
 
 client_scripts {
-  'locales.lua',
-  'config.lua',
-  'client.lua'
+  'utils/locales.lua',
+  'utils/config.lua',
+  'client/client.lua'
 }
 
 server_scripts {
-  'config.lua',
-  'server.lua'
+  'utils/config.lua',
+  'server/server.lua'
 } 
